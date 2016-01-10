@@ -1,0 +1,222 @@
+@font-face {
+	font-family: 'Iceberg';
+	src: url('fonts/Iceberg/Iceberg-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Ropa';
+	src: url('fonts/Ropa_Sans/RopaSans-Regular.ttf');
+}
+
+body {
+    font-family: "Iceberg";
+	line-height: 1.5;
+    /*background: #f5f5f5;*/
+	background: transparent;
+	/*color: #383838;*/
+	color: #f5f5f5;
+	/*padding-top: 65px;*/
+}
+
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.section-1 {background: #7ac4c4}
+.section-2 {background: #82c47a}
+.section-3 {background: #c4807a}
+.section-4 {background: #b8c47a}
+
+.main-banner {
+	height: 800px;
+	background: url('../img/iron-man-2.jpg') no-repeat scroll;
+	background-color: rgba(0, 0, 0, 0.5);
+	background-position: top;
+	background-size: cover;
+}
+
+	.banner-cover {
+		height: 800px;
+		background: rgba(0, 0, 0, 0.5);
+	}
+
+.main-nav {
+	font-size: 1.25em;
+    background: #ffffff;
+    color: #2d37a7;
+    float: left;
+	position: fixed;
+    width: 100%;
+	padding: 20px 0;
+	z-index: 100;
+    vertical-align: middle;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+	-webkit-transition: padding .5s;
+	-moz-transition: padding .5s;
+	-o-transition: padding .5s;
+    transition: padding .5s;
+}
+    .main-logo,
+    .main-menu {
+        vertical-align: middle;
+    }
+
+    .menu-item {
+        display: inline-block;
+        color: #383838;
+    }
+
+		.menu-item a {
+			display: block;
+			padding: 10px;
+			color: inherit;
+			text-decoration: none;
+		}
+
+		.menu-item a:hover {
+			color: #fa3434;
+		}
+
+    .menu-item:hover {
+    }
+
+    .main-logo {
+        float: left;
+    }
+
+    .main-menu {
+        float: right;
+    }
+
+		.main-menu li {
+			float: left;
+		}
+
+.main-header {
+	background: transparent;
+	color: #f5f5f5;
+	font-weight: bold;
+	padding-top: 300px;
+	padding-bottom: 300px;
+	position: relative;
+	min-height: 100%;
+	z-index: 10;
+}
+
+	.title-header {
+		font-size: 5em;
+		text-align: center;
+	}
+
+	.subtitle-header {
+		font-size: 2em;
+		text-align: center;
+	}
+
+article,
+footer {
+	position: relative;
+	background: #ffffff;
+	padding: 30px 0;
+}
+
+article {
+	padding: 0;
+}
+
+.section {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+	.article-content {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.profile-item {
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	.profile-sm {
+	}
+
+		.profile-sm .profile-img,
+		.profile-sm .profile-detail {
+			float: left;
+		}
+
+		.profile-sm .profile-img {
+			width: 20%;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+
+			.profile-sm .profile-img img {
+				width: 100%;
+				border-radius: 50%;
+			}
+
+		.profile-sm .profile-detail {
+			width: 80%;
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+
+			.profile-sm .profile-detail p {
+			}
+
+	.profile-vs {
+	}
+
+		.profile-vs .profile-img,
+		.profile-vs .profile-detail {
+			text-align: center;
+			margin-top: 30px;
+		}
+
+		.profile-vs .profile-img {
+			width: 100%;
+		}
+
+			.profile-vs .profile-img img {
+				width: 50%;
+				border-radius: 50%;
+			}
+
+		.profile-md .profile-img {
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+
+			.profile-md .profile-img img {
+				width: 100%;
+				border-radius: 50%;
+			}
+
+.main-footer {
+	background: #383838;
+	color: #f5f5f5;
+	padding: 50px 0;
+}
+
+	.footer-item {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		text-align: center;
+		font-size: 1.25em;
+		cursor: pointer;
+	}
+
+	.footer-item:hover {
+		background: #303030;
+	}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
