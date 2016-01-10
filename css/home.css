@@ -68,6 +68,10 @@ header {
         color: #383838;
     }
 
+	.item-selected {
+		color: #fa3434;
+	}
+
 		.menu-item a {
 			display: block;
 			padding: 10px;
